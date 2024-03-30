@@ -1,0 +1,34 @@
+
+###
+POST http://localhost:2000/subscribe
+Content-Type: application/json
+
+{
+    "email": "jaya@email.com"
+}
+
+###
+POST http://localhost:2000/signup
+Content-Type: application/json
+
+{
+    "userName":"bhaskar",
+    "email": "bhaskar@gmail.com",
+    "password":"1234"
+}
+
+
+###
+POST  http://localhost:2000/login 
+Content-Type: application/json
+
+{
+    "email":"babu@gmail.com",
+    "password":"abcd"
+}
+
+###
+GET http://localhost:2000/dashboard 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJoYXNrYXJAZ21haWwuY29tIiwiaWF0IjoxNzExNzYzMDc1fQ.SyW_5phbNleLtnVNOUllDmEKRPAv1MLmnWzEt7ij9FQ
+
+
